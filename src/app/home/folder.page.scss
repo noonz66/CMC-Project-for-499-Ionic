@@ -44,8 +44,10 @@ ion-content {
     text-align: center;
     position: relative;
     vertical-align: middle;
-    --overflow: hidden; //disables
 }
+
+
+/* #--overflow: hidden; //disables scrolling, put in ion-content */
 
 
 /* Logo and Caption */

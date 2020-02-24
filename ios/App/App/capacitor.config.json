@@ -5,8 +5,21 @@
   "npmClient": "npm",
   "webDir": "www",
   "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffffffff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#999999",
+      "showSpinner": true
+    }
+  },
   "server": {
-    "url": "http://localhost:8101",
+    "url": "http://localhost:8100",
     "cleartext": true
   }
 }
