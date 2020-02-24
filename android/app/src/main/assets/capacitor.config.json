@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.CMC",
+  "appName": "CMC",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
