@@ -1,29 +1,33 @@
 <ion-app>
-  <ion-split-pane contentId="main-content">
-    <ion-menu contentId="main-content" type="overlay">
-      <ion-content>
-        <ion-list id="inbox-list">
-          <ion-list-header>Inbox</ion-list-header>
-          <ion-note>hi@ionicframework.com</ion-note>
+    <ion-split-pane contentId="main-content">
 
-          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
-            <ion-item (click)="selectedIndex = i" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" [class.selected]="selectedIndex == i">
-              <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
-              <ion-label>{{ p.title }}</ion-label>
-            </ion-item>
-          </ion-menu-toggle>
-        </ion-list>
-
-        <ion-list id="labels-list">
-          <ion-list-header>Labels</ion-list-header>
-
-          <ion-item *ngFor="let label of labels" lines="none">
-            <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
-            <ion-label>{{ label }}</ion-label>
-          </ion-item>
-        </ion-list>
-      </ion-content>
-    </ion-menu>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
-  </ion-split-pane>
+        <ion-menu contentId="main-content" type="overlay">
+            <ion-header class="side-menu-header">
+                <ion-toolbar>
+                    <ion-menu-button></ion-menu-button>
+                    <a href="/home"><img src="..\assets\logo.svg" class="sidemenu-cmc-logo"></a>
+                </ion-toolbar>
+            </ion-header>
+            <ion-content class="side-menu">
+                <ion-list>
+                    <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
+                        <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" class="side-menu-tab" detail="false" lines="none">
+                            <ion-icon slot="start" [src]="p.icon" [name]="p.title" class="side-menu-icons"></ion-icon>
+                            <ion-label class="side-menu-label">
+                                {{p.title}}
+                            </ion-label>
+                        </ion-item>
+                    </ion-menu-toggle>
+                </ion-list>
+                <ion-item class="social-media-item" lines="none">
+                    <ion-icon name="logo-facebook" class="social-media-icons"></ion-icon>
+                    <ion-icon name="logo-instagram" class="social-media-icons"></ion-icon>
+                    <a href="https://twitter.com/C_S_COUNCIL?lang=en" rel="external" target="_blank">
+                        <ion-icon name="logo-twitter" class="social-media-icons" id="twitter"></ion-icon>
+                    </a>
+                </ion-item>
+            </ion-content>
+        </ion-menu>
+        <ion-router-outlet id="main-content"></ion-router-outlet>
+    </ion-split-pane>
 </ion-app>

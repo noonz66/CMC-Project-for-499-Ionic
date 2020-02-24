@@ -1,0 +1,116 @@
+/* Header Top/ Bottom */
+
+.staybottom {
+    position: relative;
+    bottom: -5px;
+    width: 100%;
+    z-index: 0;
+    height: 10vh;
+}
+
+.menu {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+ion-header {
+    margin: 0;
+    padding: 0;
+}
+
+ion-toolbar {
+    margin: 0;
+    padding: 0;
+}
+
+//remove shadow from header
+ion-header::after {
+    --background: none;
+}
+
+
+/* Content */
+
+ion-content {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    --overflow: hidden; //disables
+}
+
+
+/* Logo and Caption */
+
+.logo {
+    width: 40%;
+    height: 40%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: auto;
+}
+
+.caption h3 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* Dashboard */
+
+.centercard {
+    text-align: center;
+    align-items: center;
+}
+
+.maincard {
+    width: 50px;
+    height: 50px;
+    border: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-style: none !important;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icons {
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+ion-grid {
+    z-index: 3;
+    --ion-grid-columns: 3;
+    --ion-grid-rows: 2;
+    position: relative;
+}
+
+.whiteback {
+    background: var(--ion-color-light);
+    width: 100%;
+}
