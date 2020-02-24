@@ -1,0 +1,7 @@
+{
+  "name": "CMCProject",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
