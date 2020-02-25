@@ -24,16 +24,16 @@ const routes: Routes = [
     loadChildren: () => import('./news-page/news-page.module').then( m => m.NewsPagePageModule)
   },
   {
-    path: 'abouts-us',
-    loadChildren: () => import('./pages/abouts-us/abouts-us.module').then( m => m.AboutsUsPageModule)
-  },
-  {
     path: 'council-members',
     loadChildren: () => import('./pages/council-members/council-members.module').then( m => m.CouncilMembersPageModule)
   },
   {
     path: 'project-list',
     loadChildren: () => import('./projects/project-list/project-list.module').then( m => m.ProjectListPageModule)
+  },
+  {
+    path: 'about-us',
+    loadChildren: () => import('./pages/about-us/about-us.module').then( m => m.AboutUsPageModule)
   },
 ];
 
