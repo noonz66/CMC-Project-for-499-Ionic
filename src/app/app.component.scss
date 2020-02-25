@@ -1,6 +1,6 @@
 .sidemenu-cmc-logo {
     position: relative;
-    margin-left: 22%;
+    margin-right: 28%;
     margin-bottom: 7%;
     margin-top: 2%;
     height: 45%;
@@ -39,11 +39,28 @@ ion-menu-button {
 
 .social-media-item ion-icon {
     color: #AC3236;
+    margin-top: 50px;
+    margin-right: 2%;
+    margin-left: 2%;
     padding-left: 10%;
     padding-right: 10%;
+    
 }
 
 #twitter {
     position: relative;
-    margin-left: 200%;
+    width: 100px;
+    padding-right: 0;
+    
+}
+
+#facebook {
+    position: relative;
+    width: 15%;
+   
+}
+
+#instagram {
+    position: relative;
+    width: 15%
 }
