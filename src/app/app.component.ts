@@ -49,7 +49,7 @@ export class AppComponent {
 		},
 		{
 			title: "معلومات عنا",
-			url: "/pages/abouts-us",
+			url: "/pages/about-us",
 			icon: "../assets/sidemenu/icons/about.svg"
 		}
 	];
