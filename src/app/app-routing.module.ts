@@ -30,7 +30,7 @@ const routes: Routes = [
   {
     path: 'council-members',
     loadChildren: () => import('./pages/council-members/council-members.module').then( m => m.CouncilMembersPageModule)
-  }
+  },
 ];
 
 @NgModule({
