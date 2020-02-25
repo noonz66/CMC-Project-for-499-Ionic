@@ -17,11 +17,5 @@
             "spinnerColor": "#999999",
             "showSpinner": true
         }
-    },
-    "server": {
-        "iosScheme": "ionic",
-        "allowNavigation": [
-            "localhost"
-        ]
     }
 }
