@@ -39,7 +39,7 @@ export class AppComponent {
 
 		{
 			title: "أعضاء المجلس",
-			url: "/pages/council-members",
+			url: "/council-members",
 			icon: "../assets/sidemenu/icons/members.svg"
 		},
 		{
@@ -49,7 +49,7 @@ export class AppComponent {
 		},
 		{
 			title: "معلومات عنا",
-			url: "/pages/abouts-us",
+			url: "/about-us",
 			icon: "../assets/sidemenu/icons/about.svg"
 		}
 	];
