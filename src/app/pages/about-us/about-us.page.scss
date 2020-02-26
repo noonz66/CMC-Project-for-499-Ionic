@@ -1,19 +1,33 @@
-.indent {
-    text-indent: 40px;
-}
-
-.title {
-    font-size: 26px;
-}
-
-.header {
-    padding: 15px;
-}
-
-p {
-    font-size: 18px;
-}
-
-.space {
-    padding: 20px;
-}
+    .indent {
+        text-indent: 40px;
+    }
+    
+    .title {
+        font-size: 26px;
+    }
+    
+    .header {
+        padding: 15px;
+    }
+    
+    .space {
+        padding: 20px;
+    }
+    /*font sizes*/
+    
+    .fontsize {
+        font-size: 20px;
+    }
+    
+    ion-content,
+    ion-card-content,
+    ion-text,
+    ion-label,
+    ion-item {
+        font-size: 20px;
+    }
+    /* space from icon in list */
+    
+    .iconspace {
+        padding-left: 10px;
+    }
