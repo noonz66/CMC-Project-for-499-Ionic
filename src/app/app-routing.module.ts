@@ -35,6 +35,23 @@ const routes: Routes = [
     path: 'project-list',
     loadChildren: () => import('./projects/project-list/project-list.module').then( m => m.ProjectListPageModule)
   },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./projects/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'tab1',
+    loadChildren: () => import('./projects/tab1/tab1.module').then( m => m.Tab1PageModule)
+  },
+  {
+    path: 'tab2',
+    loadChildren: () => import('./projects/tab2/tab2.module').then( m => m.Tab2PageModule)
+  },
+  {
+    path: 'tab3',
+    loadChildren: () => import('./projects/tab3/tab3.module').then( m => m.Tab3PageModule)
+  },
+
 ];
 
 @NgModule({
