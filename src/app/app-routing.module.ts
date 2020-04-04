@@ -35,6 +35,24 @@ const routes: Routes = [
     path: 'council-members',
     loadChildren: () => import('./pages/council-members/council-members.module').then( m => m.CouncilMembersPageModule)
   },
+  {
+    path: 'tabs',
+    loadChildren: () => import('./projects/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'tab1',
+    loadChildren: () => import('./projects/tab1/tab1.module').then( m => m.Tab1PageModule)
+  },
+  {
+    path: 'tab2',
+    loadChildren: () => import('./projects/tab2/tab2.module').then( m => m.Tab2PageModule)
+  },
+  {
+    path: 'tab3',
+    loadChildren: () => import('./projects/tab3/tab3.module').then( m => m.Tab3PageModule)
+  },
+  { path: '', loadChildren: './projects/tabs/tabs.module#TabsPageModule' }
+
 ];
 
 @NgModule({
