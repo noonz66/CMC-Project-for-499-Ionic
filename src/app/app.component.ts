@@ -33,7 +33,7 @@ export class AppComponent {
 		},
 		{
 			title: "مشاريع",
-			url: "/projects",
+			url: "/project-list",
 			icon: "../assets/sidemenu/icons/projects.svg"
 		},
 
