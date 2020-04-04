@@ -1,6 +1,6 @@
 .sidemenu-cmc-logo {
     position: relative;
-    margin-left: 22%;
+    margin-right: 28%;
     margin-bottom: 7%;
     margin-top: 2%;
     height: 45%;
@@ -8,7 +8,7 @@
 }
 
 ion-label {
-    text-align: right;
+    margin-right: 15px;;
     padding-bottom: 0;
 }
 
@@ -31,19 +31,31 @@ ion-menu-button {
     padding-left: 0%;
 }
 
-.social-media-item {
+.social-media-bar{
     position: relative;
-    margin-left: 5%;
-    margin-top: 0%;
+    margin-left: 0%;
+    margin-top: 18%;
+    height: 20%;  
 }
 
-.social-media-item ion-icon {
+.social-media-bar ion-icon {
     color: #AC3236;
-    padding-left: 10%;
-    padding-right: 10%;
+    height: 200px;
+    margin-left: 55px;
 }
 
 #twitter {
     position: relative;
-    margin-left: 200%;
+    width: 34px; 
+}
+
+#facebook {
+    position: relative;
+    width: 31px;
+   margin-right: 40px;
+}
+
+#instagram {
+    position: relative;
+    width: 31px;
 }

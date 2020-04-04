@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: CouncilMembersPage
+  },
+  {
+    path: 'member-info',
+    loadChildren: () => import('./member-info/member-info.module').then( m => m.MemberInfoPageModule)
   }
 ];
 

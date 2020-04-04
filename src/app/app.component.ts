@@ -18,7 +18,7 @@ export class AppComponent {
 	public appPages = [
 		{
 			title: "أخبار",
-			url: "/news",
+			url: "/news-home",
 			icon: "../assets/sidemenu/icons/news.svg"
 		},
 		{
@@ -33,13 +33,13 @@ export class AppComponent {
 		},
 		{
 			title: "مشاريع",
-			url: "/#",
+			url: "/projects",
 			icon: "../assets/sidemenu/icons/projects.svg"
 		},
 
 		{
 			title: "أعضاء المجلس",
-			url: "/#",
+			url: "/council-members",
 			icon: "../assets/sidemenu/icons/members.svg"
 		},
 		{
@@ -49,7 +49,7 @@ export class AppComponent {
 		},
 		{
 			title: "معلومات عنا",
-			url: "/#",
+			url: "/about-us",
 			icon: "../assets/sidemenu/icons/about.svg"
 		}
 	];
