@@ -18,3 +18,4 @@ export class ProjectListPage implements OnInit {
   }
 
 }
+export class ProjectListPageRoutingModule {}
