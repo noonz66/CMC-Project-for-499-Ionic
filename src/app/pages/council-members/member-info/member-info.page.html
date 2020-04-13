@@ -13,7 +13,7 @@
 
         <ion-card-header class="ion-text-center">
             <ion-avatar class="dp">
-                <img src="../../assets/Councilmembers/طرادة.jpg">
+                <img src="../assets/Councilmembers/طرادة.jpg">
             </ion-avatar>
             <h3><strong> صلاح طرادة</strong> </h3>
             <h4>رئيس</h4>
@@ -21,17 +21,17 @@
 
         <ion-card-content class="ion-text-center">
             <ion-list>
-
-                <ion-item>
-                    <ion-avatar slot="end">
-                        <ion-icon name="call"> </ion-icon>
-                    </ion-avatar>
-                    <ion-label>
-                        <h5>+973 0000 0000</h5>
-                        <p>Mobile</p>
-                    </ion-label>
-                </ion-item>
-
+                <a href="tel:+97300000000" class="phonecall">
+                    <ion-item>
+                        <ion-avatar slot="end">
+                            <ion-icon name="call"> </ion-icon>
+                        </ion-avatar>
+                        <ion-label>
+                            <h5>+973 0000 0000</h5>
+                            <p>Mobile</p>
+                        </ion-label>
+                    </ion-item>
+                </a>
                 <ion-item>
                     <ion-avatar slot="end">
                         <ion-icon name="chatbubbles"> </ion-icon>
@@ -41,17 +41,17 @@
                         <p>Message</p>
                     </ion-label>
                 </ion-item>
-
-                <ion-item>
-                    <ion-avatar slot="end">
-                        <ion-icon name="mail"> </ion-icon>
-                    </ion-avatar>
-                    <ion-label>
-                        <h5>example@mail.coms</h5>
-                        <p>Email</p>
-                    </ion-label>
-                </ion-item>
-
+                <a href="mailto:test@test.com" class="phonecall">
+                    <ion-item>
+                        <ion-avatar slot="end">
+                            <ion-icon name="mail"> </ion-icon>
+                        </ion-avatar>
+                        <ion-label>
+                            <h5>test@test.com</h5>
+                            <p>Email</p>
+                        </ion-label>
+                    </ion-item>
+                </a>
             </ion-list>
         </ion-card-content>
     </ion-card>
