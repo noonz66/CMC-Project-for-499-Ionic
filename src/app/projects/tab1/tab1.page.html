@@ -1,28 +1,23 @@
 <ion-header [translucent]="true">
-  <ion-toolbar class="headfix" color="primary">
-    <ion-buttons slot="start">
-      <ion-back-button text="" icon="arrow-forward" defaultHref="project-list"></ion-back-button>
-    </ion-buttons>
-    <ion-title class="ion-text-center">
-      حالة المشروع
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar class="headfix" color="primary">
+        <ion-icon routerLink="/project-list" routerDirection="backward" slot="start" name="arrow-forward" size="large"></ion-icon>
+        <ion-title class="ion-text-center">
+            حالة المشروع
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="ion-padding">
-    <h3 class="ion-text-center">مشروع تطوير شارع الفاتح</h3>
-</div>
-  <div class="ion-padding">
+    <div class="ion-padding">
+        <h3 class="ion-text-center">مشروع تطوير شارع الفاتح</h3>
+    </div>
+    <div class="ion-padding">
 
-    <img src="..\..\assets\projects\img\plan.jpg" alt="al fateh road plan">
-    <p class="ion-text-justify indent"> 
-    تم الإنتهاء من اعداد التصاميم لتفصيلية للمشروع.
-    تم تخصيص ميزانية للأعمال الإنشائية للمشروع تبلغ 34,000,000 دينار من منحة الصندوق السعودي للتنمية. 
-    تم الإعلان عن مناقصة الأعمال الإنشائية يوم الأحد الموافق 8 سبتمبر 2019م. علماً xaبأن تاريخ إغلاق المناقصة هو 4 ديسمبر 2019 (فترة العطاء تبلغ 3 شهور).
-    من المؤمل أن تبدأ الأعمال الإنشائية خلال الربع الأول من العام 2020م.
-    من المتوقع أن تنتهي الأعمال الإنشائية خلال العام 2023م (فترة التنفيذ 3 سنوات).
-    </p>
-</div>
-  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+        <img src="../assets\projects\img\plan.jpg" alt="al fateh road plan">
+        <p class="ion-text-justify indent">
+            تم الإنتهاء من اعداد التصاميم لتفصيلية للمشروع. تم تخصيص ميزانية للأعمال الإنشائية للمشروع تبلغ 34,000,000 دينار من منحة الصندوق السعودي للتنمية. تم الإعلان عن مناقصة الأعمال الإنشائية يوم الأحد الموافق 8 سبتمبر 2019م. علماً xaبأن تاريخ إغلاق المناقصة
+            هو 4 ديسمبر 2019 (فترة العطاء تبلغ 3 شهور). من المؤمل أن تبدأ الأعمال الإنشائية خلال الربع الأول من العام 2020م. من المتوقع أن تنتهي الأعمال الإنشائية خلال العام 2023م (فترة التنفيذ 3 سنوات).
+        </p>
+    </div>
+    <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
