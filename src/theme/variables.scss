@@ -2,7 +2,37 @@
     // http://ionicframework.com/docs/theming/
     /** Ionic CSS Variables **/
     
-     :root {
+    @font-face {
+        font-family: 'Amiri';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../assets/fonts/Amiri/Amiri-Regular.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Amiri';
+        font-style: normal;
+        font-weight: bold;
+        src: url('../assets/fonts/Amiri/Amiri-Bold.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Amiri';
+        font-style: italic;
+        font-weight: normal;
+        src: url('../assets/fonts/Amiri/Amiri-Italic.ttf');
+    }
+    
+    @font-face {
+        font-family: 'Amiri';
+        font-style: italic;
+        font-weight: bold;
+        src: url('../assets/fonts/Amiri/Amiri-BoldItalic.ttf');
+    }
+    
+     :root,
+     :root[mode=ios],
+     :root[mode=md] {
         /*primary*/
         --ion-color-primary: #AC3236;
         --ion-color-primary-rgb: 172, 50, 54;
@@ -67,9 +97,5 @@
         --ion-color-light-shade: #e0e0e0;
         --ion-color-light-tint: #ffffff;
         /*font family*/
-        --ion-font-family: 'Roboto';
-    }
-    
-    @font-face {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        --ion-font-family: 'Amiri' !important;
     }
