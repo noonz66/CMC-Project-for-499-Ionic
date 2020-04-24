@@ -51,7 +51,11 @@ const routes: Routes = [
     path: 'tab3',
     loadChildren: () => import('./projects/tab3/tab3.module').then( m => m.Tab3PageModule)
   },
-  { path: '', loadChildren: './projects/tabs/tabs.module#TabsPageModule' }
+  { path: '', loadChildren: './projects/tabs/tabs.module#TabsPageModule' },
+  {
+    path: 'complaint-suggest',
+    loadChildren: () => import('./pages/complaint-suggest/complaint-suggest.module').then( m => m.ComplaintSuggestPageModule)
+  }
 
 ];
 

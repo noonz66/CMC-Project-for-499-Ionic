@@ -23,7 +23,7 @@ export class AppComponent {
 		},
 		{
 			title: "شكاوي و مقترحات",
-			url: "/#",
+			url: "/complaint-suggest",
 			icon: "../assets/sidemenu/icons/complaints.svg"
 		},
 		{
