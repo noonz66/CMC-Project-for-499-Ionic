@@ -33,6 +33,8 @@
      :root,
      :root[mode=ios],
      :root[mode=md] {
+        /*font family*/
+        --ion-font-family: 'Amiri' !important;
         /*primary*/
         --ion-color-primary: #AC3236;
         --ion-color-primary-rgb: 172, 50, 54;
@@ -96,6 +98,4 @@
         --ion-color-light-contrast-rgb: 0, 0, 0;
         --ion-color-light-shade: #e0e0e0;
         --ion-color-light-tint: #ffffff;
-        /*font family*/
-        --ion-font-family: 'Amiri' !important;
     }
