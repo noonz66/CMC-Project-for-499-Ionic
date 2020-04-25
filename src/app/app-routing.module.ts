@@ -55,6 +55,14 @@ const routes: Routes = [
   {
     path: 'complaint-suggest',
     loadChildren: () => import('./pages/complaint-suggest/complaint-suggest.module').then( m => m.ComplaintSuggestPageModule)
+  },
+  {
+    path: 'survey',
+    loadChildren: () => import('./pages/survey/survey.module').then( m => m.SurveyPageModule)
+  },
+  {
+    path: 'event',
+    loadChildren: () => import('./pages/event/event.module').then( m => m.EventPageModule)
   }
 
 ];

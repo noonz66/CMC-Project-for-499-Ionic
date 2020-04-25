@@ -28,7 +28,7 @@ export class AppComponent {
 		},
 		{
 			title: "الفعاليات",
-			url: "/#",
+			url: "/event",
 			icon: "../assets/sidemenu/icons/events.svg"
 		},
 		{
@@ -44,7 +44,7 @@ export class AppComponent {
 		},
 		{
 			title: "الإستطلاعات",
-			url: "/#",
+			url: "/survey",
 			icon: "../assets/sidemenu/icons/survey.svg"
 		},
 		{
