@@ -15,7 +15,7 @@ export class SurveyPage implements OnInit {
 
   openSurvey() {
     this.iab.create(
-      "https://forms.gle/wnyh22ax3vKgLW4L7",
+      "https://docs.google.com/forms/d/e/1FAIpQLSeq2zzmddU-qgi0McUKGpV-sZ_GGyeVIuCDbecwOaCmk6bLjA/viewform?usp=sf_link",
       "_self",
       "toolbarposition=top,presentationstyle=fullscreen,toolbar=yes,toolbarcolor=#AC3236,navigationbuttoncolor=#ffffff,enableViewportScale=yes,hideurlbar=yes,closebuttoncaption=أغلق,closebuttoncolor=#ffffff,footer=no,footercolor=#AC3236,fullscreen=yes,location=yes,keyboardDisplayRequiresUserAction=yes,mediaPlaybackRequiresUserAction=yes,lefttoright=yes,shouldPauseOnSuspend=yes"
     );
