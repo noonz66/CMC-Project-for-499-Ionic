@@ -30,7 +30,7 @@
         "cordova-plugin-inappbrowser": "^3.2.0",
         "core-js": "^3.6.5",
         "jetifier": "^1.6.5",
-        "node-sass": "^4.14.0",
+        "node-sass": "^7.0.0",
         "rxjs": "^6.5.5",
         "tslib": "^1.11.1",
         "zone.js": "~0.10.3"
